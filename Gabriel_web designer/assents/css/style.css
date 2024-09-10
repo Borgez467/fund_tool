@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*
+cometarios pra css
+*/
+
+
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        /* background-color: aquamarine; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #040032;
+    margin: auto;
+    padding: 0%;
+    border: 0;
+    background-image: linear-gradient(rgb(70, 0, 128), rgb(167, 94, 255));
+
+}
+
+header {
+    background-color: #050039;
+    color: aliceblue;
+    height: 65px;
+}
+
+h1 {
+    font-size: 23 px;
+}
+
+nav {
+    background-color: #040032;
+    height: 30px;
+
+}
+
+main {
+    background-color: #14064d;
+    height:auto;
+}
+
+a {
+    color: rgb(172, 40, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(56, 19, 96);
+    color: #9f70eb;
+    height: 175px;
+}
+
+img {
+    width: 250px;
+    height: 230px;
+}
+
+#imgmain{
+width: 100%;
+}
